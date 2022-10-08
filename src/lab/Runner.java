@@ -163,7 +163,8 @@ public class Runner {
 		for (int i = 0; i < arr3D.length; i++) {
 			
 			//set indexes to random numbers
-			arr3D[i] = ArrayAnalysis.createRandom(2, 2, -40, 40);
+			arr3D[i] = analysis.createRandom(4, 5, -40, 40);
+
 		}
 		int x = 1;
 		
